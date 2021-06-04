@@ -2,9 +2,9 @@ package com.bext.depinj.game;
 
 public class GameRunner {
 	
-	private PacmanGame game;
+	private GamingConsole game;
 
-	public GameRunner(PacmanGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 	
