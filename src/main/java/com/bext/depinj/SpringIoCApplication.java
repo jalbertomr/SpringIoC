@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.bext.depinj.game.GameRunner;
-import com.bext.depinj.game.MarioGame;
+import com.bext.depinj.game.PacmanGame;
 
 @SpringBootApplication
 public class SpringIoCApplication {
@@ -12,7 +12,7 @@ public class SpringIoCApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringIoCApplication.class, args);
 		
-		MarioGame game = new MarioGame();
+		PacmanGame game = new PacmanGame();
 		GameRunner runner = new GameRunner( game);
 		runner.runGame();
 	}
