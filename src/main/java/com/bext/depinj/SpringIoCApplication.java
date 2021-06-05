@@ -3,11 +3,12 @@ package com.bext.depinj;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import com.bext.depinj.game.GameRunner;
-import com.bext.depinj.game.GamingConsole;
 
 @SpringBootApplication
+@ComponentScan("com.bext.depinj")
 public class SpringIoCApplication {
 
 	public static void main(String[] args) {
