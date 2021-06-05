@@ -5,14 +5,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class GameRunner {
-	@Autowired	
 	private GamingConsole game;
-
+/*
 	public GameRunner(GamingConsole game) {
 		System.out.println("using Constructor");
 		this.game = game;
 	}
-	
+*/	@Autowired		
 	public void setGame(GamingConsole game) {
 		System.out.println("using Setter");
 		this.game = game;
