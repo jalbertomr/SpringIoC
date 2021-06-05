@@ -1,5 +1,8 @@
 package com.bext.depinj.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MarioGame implements GamingConsole {
 	@Override
 	public void up() { System.out.println("Mario up");}
