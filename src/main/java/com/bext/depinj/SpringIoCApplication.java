@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.bext.depinj.game.GameRunner;
 
 @SpringBootApplication
-@ComponentScan("com.bext.depinj")
+@ComponentScan({"com.bext.depinj","com.bext.depinjOTHER"})
 public class SpringIoCApplication {
 
 	public static void main(String[] args) {
